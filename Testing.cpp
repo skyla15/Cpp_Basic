@@ -13,7 +13,7 @@ int main() {
 	cout << x << endl; // #1
 
 	doSomething(x);
-	// doSomethingÀÌ¶ó´Â ·ÎÄÃ ¿µ¿ª ÀÌÈÄ ÇØ´ç º¯¼ö ÇØÁ¦ ( #2 )
+	// doSomethingì´ë¼ëŠ” ë¡œì»¬ ì˜ì—­ ì´í›„ í•´ë‹¹ ë³€ìˆ˜ í•´ì œ ( #2 )
 
 	cout << x << endl; // #3 
 
