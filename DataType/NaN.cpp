@@ -1,6 +1,7 @@
 #include <iostream>
 
 
+
 int main() {
 	using namespace std;
 
@@ -10,8 +11,11 @@ int main() {
 	double nan = zero / zero;
 
 	cout << posinf << endl; // +inf
-	cout << neginf << endl; // -inf
-	cout << nan << endl; // -nan(ind)
+	cout << neginf << endl; // - inf
+	cout << nan << endl; // nan(ind)
+	cout << isnan(posinf) << endl; // 0
+	cout << isinf(neginf) << endl; // 1
+	
 	system("pause");
 
 }
