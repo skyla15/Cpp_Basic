@@ -1,3 +1,7 @@
+/*
+ * TREND : Initialziation should be close to where it is used.
+ */
+
 #include <iostream>
 #include <bitset>
 
