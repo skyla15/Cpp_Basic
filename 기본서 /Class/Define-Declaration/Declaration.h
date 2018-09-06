@@ -1,8 +1,7 @@
 #include <iostream>
-#include <string>
-#include <windows.h>
-#include <limits>
-/* 
+#include <string> 
+
+/*
  클래스 외부에 함수선언 가능 ( 인터페이스 )
  함수 선언, 구현하는 방법은 일반 함수 선언과 동일 
  */
@@ -26,9 +25,15 @@
 
 */
 
-/*****************
+/****************************************************
 ** double Circle::calcArea(); 
-** Define.h 에 정의 
+** Define.cpp 에 "정의"
+****************************************************
+** class Circle
+** Declaration.h 에 "선언" => 인터페이스로 사용
+****************************************************
+** Main.cpp 
+** Declaration.h 를 가지고와 해당 클래스의 멤버함수를 사용 
 *******************/
 
 using namespace std;
@@ -39,16 +44,3 @@ public:
 	string color;
 	double calcArea();
 };
-
-
-int main() {
-	Circle c;
-
-	c.x = 100;
-	c.y = 100;
-
-	c.radius = 50;
-
-	system("pause");
-	
-}
