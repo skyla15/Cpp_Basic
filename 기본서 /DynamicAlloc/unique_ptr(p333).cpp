@@ -7,6 +7,9 @@
 	unique_ptr<자료형> 변수명(new 자료형 초기화)
 	ex)
 	unique_ptr<int> p(new int);
+	
+	선언시 nullptr설정 
+	사용 후 자동으로 메모리할당 해제(delete)
 */
 
 using namespace std;
