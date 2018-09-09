@@ -4,12 +4,8 @@
 - Class 
 - 포인터 사용시	스마트포인터 사용 :	unique_ptr<자료형> 변수명(new 자료형 초기화)
 -	unique_ptr<int> p(new int)
--	선언시 자동으로 nullptr설정 
-- 사용 후 자동으로 메모리할당 해제(delete)
-- unique_ptr<int[]> p(new int[10])
-- unique_ptr<vector<int>> p2(new vector<int>);
-- unique_ptr<Class> p3(new Class)
--	unique_ptr<Circle[]> p4(new Circle[n])
-- unique_ptr<Class> p5(new Circle)
-  ...
+-	선언시 자동으로 nullptr설정, 사용 종료시 자동으로 
+- 한 대상을 단 하나의 포인터로만 설정 가능 
+  ex) unique_Ptr<class1> p1(new class1)
+      unique_ptr<class1> p2(new class1) // 에러 
  
