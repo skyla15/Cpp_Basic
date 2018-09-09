@@ -9,3 +9,7 @@
 - unique_ptr<int[]> p(new int[10])
 - unique_ptr<vector<int>> p2(new vector<int>);
 - unique_ptr<Class> p3(new Class)
+-	unique_ptr<Circle[]> p4(new Circle[n])
+- unique_ptr<Class> p5(new Circle)
+  ...
+ 
