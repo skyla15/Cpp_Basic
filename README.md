@@ -6,6 +6,6 @@
 -	unique_ptr<int> p(new int)
 -	선언시 자동으로 nullptr설정, 사용 종료시 자동으로 
 - 한 대상을 단 하나의 포인터로만 설정 가능 
-  ex) unique_Ptr<class1> p1(new class1)
-      unique_ptr<class1> p2(new class1) // 에러 
+-  ex) unique_Ptr<class1> p1(new class1)
+-     unique_ptr<class1> p2(new class1) // 에러 
  
