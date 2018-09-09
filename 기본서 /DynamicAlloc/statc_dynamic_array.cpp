@@ -17,10 +17,23 @@ int main() {
 	// 동적 배열 예제 
 	int *p = nullptr;
 	p = new int[10];
+	
+	for (int i = 0; i < 10; i++){
+		p[i] = i;
+		cout << p[i] << " ";
+	}
+	cout << endl;
 
+
+	// 실행시간 중 동적 배열의 크기 변경 
 	int x;
 	cin >> x;
 	p = new int[x];
+	for (int i = 0; i < x; i++){
+		p[i] = i;
+		cout << p[i] << " ";
+	}
+	cout << endl;
 
 	// 정적 배열 예제 
 	/*
