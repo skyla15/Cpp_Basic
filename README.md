@@ -1,3 +1,5 @@
 # Cpp_Basic
 
-- 설명 : main 함수있는 파일에만 적어 참고할 
+- Const 멤버 변수 접근 방법
+- Class 
+- 포인터 사용시 unique_ptr
