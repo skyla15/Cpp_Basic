@@ -46,4 +46,5 @@ public:
 	int x, y, radius;
 	string color;
 	double calcArea();
+	Circle(int x = 10, int y = 10, int radius = 1) : x{x}, y{y}, radius{radius} {};
 };
