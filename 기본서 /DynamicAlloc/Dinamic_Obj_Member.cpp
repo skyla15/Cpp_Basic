@@ -3,6 +3,9 @@
 	소멸자에 멤버변수도 메모리 해제 필요
 	멤버 변수가 가변적일 경우 => 동적할당
 	
+	this 포인터 
+	현재 객체를 가르키는 포인터 
+
 */
 
 #include <iostream>
@@ -37,6 +40,14 @@ public:
 	void setName(string n) { *pName = n; }
 	int getAge(){ return *pAge; }
 	string getName() { return *pName; }
+	
+	/** this poitner **/
+	/*
+		void setAge(int a) { *(this->pAge) = a; }
+		void setName(string n) { *(this->pName) = n; }
+		int getAge(){ return *(this->pAge); }
+		string getName() { return *(this->pName); }
+	*/
 };
 
 
