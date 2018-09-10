@@ -39,6 +39,7 @@ void print(double a) {
 
 /* inline fucntions 
  * 짧은 함수일 경우 레지스터의 올리지 않고 코드를 복사하여 사용 
+ * 클래스 내부에 선언되는 함수들은 implicit하게 inline 함수로 
  */ 
 
 inline int inlineFunc(int a) {
