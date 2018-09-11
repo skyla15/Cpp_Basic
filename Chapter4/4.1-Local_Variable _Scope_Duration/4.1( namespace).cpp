@@ -3,9 +3,12 @@
 using namespace std;
 
 
-/*
+/*	Scope
+	{ } 밖으로 나갈 경우 더 이상 해당 변수를 사용할 수 없고 
+	할당된 메모리는 OS로 반납이 된다.	
+*/
 
-	C++17
+/*	C++17
 	namespace work1::work2::work3{
 	}
 	
@@ -15,8 +18,7 @@ using namespace std;
 			namespace work3{
 			}
 		}
-	}
-	
+	}	
 */
 
 namespace space1
