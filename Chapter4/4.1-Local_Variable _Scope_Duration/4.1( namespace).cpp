@@ -2,6 +2,23 @@
 
 using namespace std;
 
+
+/*
+
+	C++17
+	namespace work1::work2::work3{
+	}
+	
+	C++14
+	namespace work1{
+		namespace work2{
+			namespace work3{
+			}
+		}
+	}
+	
+*/
+
 namespace space1
 {
 	void doSomething() {
