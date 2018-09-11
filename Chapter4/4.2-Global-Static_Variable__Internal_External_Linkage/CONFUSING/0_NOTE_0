@@ -1,0 +1,9 @@
+
+상수를 선언 및 정의한 Header를 include할경우 
+test.cpp와 main.cpp에서 헤더를 각각 가져와 사용시에 사본을 가져와서 사용.
+따라서 같은 상수를 사용한다고 하더라도 각각 주소가 다르게 들어감 
+
+
+MyCosntants.h에서 extern const double pi를 선언 후 정의는 MyConstants.cpp에서 할 경우 
+main이 호출 될 때 헤더가 포함이 되면서 pi라는 함수를 찾아가고 그 값이 정의된 MyConstants.cpp의 pi를 참조
+test또한 마찬가지고 MyConstants.cpp의 obj파일을 참조하기때문에 동일한 메모리를 참조하게 된다.
