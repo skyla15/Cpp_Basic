@@ -7,7 +7,6 @@
 	!!!! getline(cin, 변수명) 은 스트링을 받는 것
 	!!!! cin 입력 받은뒤 버퍼를 비울 필요가 있을 경우 
 	     => cin.ignore 사용 
-       => cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); 
   
 	 1) getline(cin, string)
 		 스트링을 입력받을 경우 사용
@@ -41,23 +40,22 @@ using namespace std;
 
 int main()
 {
-	cout << "try1" << endl;
-	// Try 1 *************************************************
-
+	// Try 1 
+	cout << "try1" << endl;	
 	cout << "age?" << endl;
 	int age;
-	cin >> age; // 1 입력시 버퍼로도 들어가서 저장이 됨 
+	cin >> age; // 버퍼에 age와 엔터가 입력되며 엔터가 버퍼에 남아있음
 
 	cout << "name?" << endl;
 	string name;
-	getline(cin, name);  // 위에서 버퍼에 입력된 "엔터"가 들어감 
+	getline(cin, name);  // 버퍼에 남아있던 값이 입력이 됨 
 	cout << "이름:" << name << " " << "나이: " << age << endl; // 출력 : 1 
 
-	/*********************************************************/
+
 	cout << endl;
 	cout << "try2" << endl;
-	// Try 2 *************************************************
 
+	// Try 2
 	cout << "age?" << endl;
 	int age2;
 	cin >> age2;  
@@ -68,20 +66,21 @@ int main()
 	cout << "name?" << endl;
 	string name2;
 	getline(cin, name2);  // 위에서 버퍼에 입력된 "엔터"가 들어감 
-
-	cout << "이름: " << name2 << " " << "나이: " << age2 << endl; // 출력 : 1 
+	cout << "이름: " << name2 << " " << "나이: " << age2 << endl; 
 
 	
 
-	//cout << endl;
-	//
-	//const char my_strs[] = "hello, world";
-	//const string my_hello{ " Hello, World " };
-	//
-	//cout << "hello, world" << endl; // char[12]
-	//cout << my_hello << endl; // string 
-	//cout << my_strs << endl;// char[13]
-	//
+	cout << endl;	cout << endl;	cout << endl;
+
+
+	
+	const char my_strs[] = "hello, world";
+	const string my_hello{ " Hello, World " };
+	
+	cout << "hello, world" << endl; // char[12]
+	cout << my_hello << endl; // string 
+	cout << my_strs << endl;// char[13]
+	
 	system("pause");
 
 }
