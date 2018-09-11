@@ -7,6 +7,7 @@
 	!!!! getline(cin, 변수명) 은 스트링을 받는 것
 	!!!! cin 입력 받은뒤 버퍼를 비울 필요가 있을 경우 
 	     => cin.ignore 사용 
+	     => ex) cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); 	
   
 	 1) getline(cin, string)
 		 스트링을 입력받을 경우 사용
