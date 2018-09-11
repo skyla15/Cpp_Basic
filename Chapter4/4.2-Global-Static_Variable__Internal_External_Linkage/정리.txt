@@ -1,0 +1,23 @@
+외부 연결 
+- 사용 스코프가 전체 파일인 경우 
+- 일반 함수 
+- 일반 전역 변수  ( C의 경우 : 일반 전역 상수까지 ) 
+  => 사용방법
+  main.cpp                                test.cpp
+  ....                                    ....
+  int global_number;                      extern int global_number;
+  ....                                    .... 
+  int main(){... }                        void do something(){ printf("%d\n", global_number); }
+   
+
+
+
+내부 연결
+- 사용스코프가 현재 파일에서만 사용할 수 있으며 
+  다른 파일들에는 공개가 되지 않는 것 
+- 정적 전역 상수
+- 정적 전역 변수
+- 정적 함수
+- 매크로
+- 인라인 함수
+- 
