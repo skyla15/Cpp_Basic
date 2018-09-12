@@ -2,6 +2,17 @@
 #include <float.h>// float의 머신 엡실론 값 FLT_EPSILON이 정의된 헤더 파일
 #include <math.h>// float의 절댓값을 구하는 fabsf 함수를 위한 헤더 파일
 
+/*
+    < 정수형 절댓값 >
+	int         abs( int n );
+	long        labs( long n );
+	long long   llabs( long long n );
+
+	< 실수형 절댓값 >
+	float       fabsf(float arg);
+	double      fabs(double arg);
+	long double fabsl(long double arg);
+*/
 
 using namespace std;
 int main()
