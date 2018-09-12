@@ -9,6 +9,10 @@
 	   ex)
 	   auto add(int a, int b) -> int;
 	   auto add(int a, int b) -> double;
+	   
+	4) auto를 사용하면 느려질까?
+	   => 컴파일시간은 조금 느려질 수 있으나 ( 무시할만함 ) 
+	      런타임시간은 전혀 느려지지 않는다.
 	   ...
 
 	* 참고 
