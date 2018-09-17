@@ -25,8 +25,17 @@
 		 s.empty() : string이 비어있다면 true;
 		 s.insert(pos, s2) : pos위치에 s2 삽입
 		 s.remove(pos, len) : s의 pos위치부터 len만큼 삭제
+		 
+		 s.substr(from) : from부터 문자열반환 
+		 s.substr(from, to) : from부터 to까지의 문자열을 반환 
+		 ex) 
+		 	string s = "ABCDEF"
+			s.substr(4); // "EF"
+			s.substr(1,3); // "BCD"
+		 
 		 s.find(s2) : s에서 s2가 발견되는 첫번째 인덱스 반환
 		 s.find(pos, s2) : s의 pos위치부터 s2가 발견되는 첫번 째 인덱스 반환
+		
 
 	 4) stirng 객체에서 문자추출 방법 : C의 문자열 배열처럼 사용
 
