@@ -1,6 +1,12 @@
 #include <iostream>
-#include <cstdlib> // std::rand(), std::srand() 
-#include <ctime> // time(0)
+
+
+/*
+	cin.fail() : when user types unexepcted symbol(ex> char was typed, when integer is expected), return true
+	cin.clear() : reset the error flag on cin stream 
+	cin.ignore(200, '\n\) : read and discard upto 200characters from input buffer or untill newline is read.
+*/
+
 
 #include <random> // C++ 11, random 함수, 권장 
 using namespace std;
