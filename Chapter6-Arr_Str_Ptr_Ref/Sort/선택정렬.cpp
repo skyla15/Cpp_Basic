@@ -44,9 +44,13 @@ int main() {
 		}
 
 		// 스와핑
-		temp = array[getIndex];
-		array[getIndex] = array[i];
-		array[i] = temp;
+		std::swap(array[getIndex], array[i]);
+
+		/*
+			temp = array[getIndex];
+			array[getIndex] = array[i];
+			array[i] = temp;
+		*/
 
 		print(array);
 
