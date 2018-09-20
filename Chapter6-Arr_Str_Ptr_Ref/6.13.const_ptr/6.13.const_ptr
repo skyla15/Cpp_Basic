@@ -1,0 +1,16 @@
+#include <iostream>
+
+/*
+	const int* ptr;  // 주소 변경 O, ptr이 가르키는 값 변경 x	
+	int* const ptr; 
+	// 주소 변경 X, ptr이 가르키는 값 변경 O
+	// 포인터 자체가 상수 => 초기화 필요 
+	cosnt int* const ptr; // 주소 변경 X, ptr이 가르키는 값 변경 X
+	// 포인터 자체가 상수 => 초기화 필요
+*/
+using namespace std;
+
+int main()
+{	
+	
+}
