@@ -1,0 +1,30 @@
+#include <iostream>
+/*
+	int *ptr2 = new (std::nothrow) int{ 7 }; 
+	메모리 할당을 못하더라도 프로그램이 종료 안되도록 
+
+	delete ptr;
+	ptr = 0;   /	ptr = nullptr;	/	ptr = NULL;
+	하나의 세트로 사용할 것 
+
+*/
+
+int main()
+{
+	int array[1000000];
+	// Stack 메모리 
+
+	
+	int *ptr = new int(1); //메모리할당 
+
+	delete ptr;
+	ptr = 0;
+	ptr = nullptr;
+	ptr = NULL;
+	// 메모리 해제 후에 처리하는 방법 
+
+	int *ptr2 = new (std::nothrow) int{ 7 };
+	// (std::nothrouw) 처리 할 경우 
+
+	return 0;
+}
