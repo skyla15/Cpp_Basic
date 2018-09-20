@@ -9,12 +9,11 @@
 
 */
 
+using namespace std;
+
 int main()
 {
-	int array[1000000];
-	// Stack 메모리 
 
-	
 	int *ptr = new int(1); //메모리할당 
 
 	delete ptr;
@@ -25,6 +24,14 @@ int main()
 
 	int *ptr2 = new (std::nothrow) int{ 7 };
 	// (std::nothrouw) 처리 할 경우 
+	delete ptr2;
+
+	// Memory Leak 
+	while (true)
+	{
+		int *ptr = new int;
+		cout << ptr << endl;
+	}
 
 	return 0;
 }
