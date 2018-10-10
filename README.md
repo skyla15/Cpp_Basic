@@ -14,25 +14,25 @@ Chapter 0. 시작해봅시다 (2.0 시간, 1.3 시간)
   
 Chapter 1. C++의 기초적인 사용법 (3.5 시간, 2.4 시간)  
   
-#1.1 프로그램의 구조  
-#1.2 주석  
-#1.3 변수와의 첫 만남  
-#1.4 입출력스트림과의 첫 만남  
-#1.5 함수와의 첫 만남  
-#1.6 키워드와 식별자 이름짓기  
-#1.7 지역 범위  
-#1.8 연산자와의 첫 만남  
-#1.9 기본적인 서식 맞추기  
+1.1 프로그램의 구조   
+1.2 주석   
+1.3 변수와의 첫 만남   
+1.4 입출력스트림과의 첫 만남  
+1.5 함수와의 첫 만남  
+1.6 키워드와 식별자 이름짓기  
+1.7 지역 범위  
+1.8 연산자와의 첫 만남  
+1.9 기본적인 서식 맞추기  
 1.10 선언과 정의 분리하기  
 1.11 헤더파일 만들기  
 1.12 헤더 가드가 필요한 이유  
-1.13 네임스페이스 (Namespace, 명칭 공간)  
+1.13 네임스페이스 (Namespace, 명칭 공간)   
 1.14 전처리기와의 첫 만남  
   
 Chapter 2. 변수와 기본적인 자료형 (3.1 시간, 2.1 시간)  
-
-2.1 기본 자료형 소개
-2.2 정수형 Integers
+  
+2.1 기본 자료형 소개  
+2.2 정수형 Integers  
 2.3 C++ 11 고정 너비 정수 Fixed width Integers
 2.4 무치형, 보이드, Void
 2.5 부동소수점 수 floating point numbers
@@ -49,23 +49,23 @@ Chapter 3. 연산자들 (3.8 시간, 2.5 시간)
 3.3 증가/감소 (증감) 연산자 increment/decrement operators
 3.4 sizeof, 쉼표 연산자, 조건부 연산자
 3.5 관계 연산자 Relational Operators
-3.6 논리 연산자 logical operators
-3.7 이진수 Binary Numbers
-3.8 비트단위 연산자 Bitwise Operators
-3.9 비트 플래그, 비트 마스크 사용법 Bit flags, Bit masks
-3.10 연습문제 (문서링크)
-
-Chapter 4. 변수 범위와 더 다양한 변수형 (3.3 시간, 2.2 시간)
-
-4.1 지역 변수, 범위, 지속기간
-4.2 전역 변수, 정적 변수, 내부 연결, 외부 연결 Global variables, Static variable, Internal linkage, External linkage
-4.3 Using문과 모호성
-4.4 auto 키워드와 자료형 추론
-4.5 형변환 Type conversion
-4.6 문자열 std string 소개
-4.7 열거형 enumerated types
-4.8 영역 제한 열거형 열거형 클래스 scoped enumerations enum class
-4.9 자료형에게 가명 붙여주기 type aliases 
+3.6 논리 연산자 logical operators  
+3.7 이진수 Binary Numbers  
+3.8 비트단위 연산자 Bitwise Operators  
+3.9 비트 플래그, 비트 마스크 사용법 Bit flags, Bit masks  
+3.10 연습문제 (문서링크)  
+  
+Chapter 4. 변수 범위와 더 다양한 변수형 (3.3 시간, 2.2 시간)  
+  
+4.1 지역 변수, 범위, 지속기간  
+4.2 전역 변수, 정적 변수, 내부 연결, 외부 연결 Global variables, Static variable, Internal linkage, External linkage  
+4.3 Using문과 모호성  
+4.4 auto 키워드와 자료형 추론  
+4.5 형변환 Type conversion  
+4.6 문자열 std string 소개  
+4.7 열거형 enumerated types  
+4.8 영역 제한 열거형 열거형 클래스 scoped enumerations enum class  
+4.9 자료형에게 가명 붙여주기 type aliases   
 4.10 구조체 struct
 
 Chapter 5. 흐름 제어 (2.6 시간, 1.8 시간)
@@ -123,7 +123,7 @@ Chapter 7. 함수 (3.4 시간, 2.3 시간)
 7.13 방어적 프로그래밍의 개념  
 7.14 단언하기 assert 
 7.15 명령줄 인수 command line arguments
-7.16 생략부호 Ellipsis
+7.16 생략부호 Ellipsis  
 
 Chapter 8. 객체지향의 기초 (3.4 시간, 2.3 시간)
 
