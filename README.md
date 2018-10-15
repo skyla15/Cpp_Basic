@@ -1,7 +1,7 @@
 # Cpp_Basic  
 - https://blog.naver.com/atelierjpro/221308789543  
  
- 
+# 
 
 [2주차과제](https://github.com/skyla15/Cpp_Basic/blob/master/Assignment/Week2/Week1.JPG?raw=true)   
 
@@ -208,12 +208,12 @@ Chapter 12. 가상 함수들 (1.5 시간, 1.0 시간)
 [12.11 유도 클래스에서 출력 연산자 사용하기  ]()  
 [  ]()  
    
-
-
+  
    
-   
-   
-기말고사 범위 
+      
+      
+      
+# 기말고사 범위    
 Chapter 13. 템플릿 (1.2 시간, 0.8 시간)  
 [  ]()  
 [13.1 함수 템플릿  ]()  
