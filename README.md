@@ -11,8 +11,9 @@
 
 [6주차과제](https://github.com/skyla15/Cpp_Basic/blob/master/Assignment/Week6/week%206.%20%EC%8B%A4%EC%8A%B5%EB%AC%B8%EC%A0%9C.pdf)  
 
-[7주차과제](https://github.com/skyla15/Cpp_Basic/blob/master/Assignment/Week7/week%207.pdf)  
-중간고사 범위  
+[7주차과제](https://github.com/skyla15/Cpp_Basic/blob/master/Assignment/Week7/week%207.pdf)
+
+# 중간고사 범위  
   
 Chapter 1. C++의 기초적인 사용법 (3.5 시간, 2.4 시간)      
 [    ]()  
