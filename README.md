@@ -1,8 +1,8 @@
 # Cpp_Basic  
 - https://blog.naver.com/atelierjpro/221308789543  
+ 
+중간고사 범위  
   
-CPP과제 목록 
-
 Chapter 1. C++의 기초적인 사용법 (3.5 시간, 2.4 시간)      
 [    ]()  
 1.1 프로그램의 구조      
@@ -159,10 +159,6 @@ Chapter 9. 연산자 오버로딩 (1.7 시간, 1.1 시간)
 [9.11 ★★대입 연산자 오버로딩, 깊은 복사, 얕은 복사 < 동적할당 시 깊은 복사 방법 및 복사 생성자 사용 방법 > ](https://github.com/skyla15/Cpp_Basic/blob/master/Chapter9/9.11.cpp)  
 [9.12 이니셜라이져 리스트 initializer list   ](https://github.com/skyla15/Cpp_Basic/blob/master/Chapter9/9.12.cpp)  
 [  ]()  
-  
-    
-      
-        
 
 Chapter 10. 객체들 사이의 관계에 대해 (1.4 시간, 0.9 시간)  
 [  ]()  
@@ -199,6 +195,14 @@ Chapter 12. 가상 함수들 (1.5 시간, 1.0 시간)
 [12.10 동적 형변환  ]()  
 [12.11 유도 클래스에서 출력 연산자 사용하기  ]()  
 [  ]()  
+   
+과제목록 
+![2주차과제](https://github.com/skyla15/Cpp_Basic/blob/master/Assignment/Week2/Week1.JPG?raw=true) 
+   
+   
+   
+   
+기말고사 범위 
 Chapter 13. 템플릿 (1.2 시간, 0.8 시간)  
 [  ]()  
 [13.1 함수 템플릿  ]()  
