@@ -117,7 +117,7 @@ Chapter 7. 함수 (3.4 시간, 2.3 시간)
 7.12 ★★재귀적 함수 호출 < 피보나치 등등 >    
 7.13 방어적 프로그래밍의 개념      
 7.14 단언하기 assert     
-[7.15 명령줄 인수 command line arguments 참고자료  ]  (https://www.youtube.com/watch?v=XoaYKylCUR8&feature=youtu.be)
+[7.15 명령줄 인수 command line arguments  ](https://www.youtube.com/watch?v=XoaYKylCUR8&feature=youtu.be)
 [7.16 생략부호 Ellipsis  ](https://github.com/skyla15/Cpp_Basic/tree/master/Chapter7_(Function)/7.16_Ellpisis_%EC%97%B0%EC%86%8D%EC%A0%81_%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98)  
 [  ]()  
 Chapter 8. 객체지향의 기초 (3.4 시간, 2.3 시간)  
